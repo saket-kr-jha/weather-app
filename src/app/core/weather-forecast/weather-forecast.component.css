@@ -1,0 +1,11 @@
+
+.container{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    font-size: 30px;
+    color: rgb(2, 2, 97);
+}

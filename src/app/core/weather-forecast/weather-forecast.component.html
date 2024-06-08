@@ -1,0 +1,14 @@
+<div class="container">
+    <div>
+        <header>National Weather Service</header>
+    </div>
+</div>
+<div class="container">
+    <div class="weather">
+        <p>Please Select the weather stations:</p>
+        <div *ngFor="let station of stations">
+            <button (click)="onStationSelected(station)">{{station.name}}</button>
+        </div>
+    </div>
+
+</div>
